@@ -1,4 +1,4 @@
-FROM centos:7.4
+FROM centos
 RUN yum install -y pciutils \
 	&& yum install -y tcpdump \
 	&& yum install -y net-tools 
