@@ -1,4 +1,7 @@
 FROM centos:latest
+
+RUN yum install -y epel-release
+
 RUN yum install -y pciutils \
 	&& yum install -y tcpdump \
 	&& yum install -y ethtool \
