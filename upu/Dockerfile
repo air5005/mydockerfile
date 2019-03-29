@@ -11,6 +11,6 @@ RUN yum install -y pciutils \
 	&& yum install -y tcpreplay msgpack-devel \
 	&& yum install -y readline-devel libedit-devel \
 	&& yum install -y gcc automake autoconf libtool make \
-	&& yum install -y glibc-static libstdc++-static 
+	&& yum install -y glibc-static libstdc++-static libevent-devel
 
-WORKDIR /home/srv
+WORKDIR /opt/upu-5G
