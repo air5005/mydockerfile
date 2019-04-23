@@ -12,6 +12,6 @@ RUN yum install -y pciutils \
 	&& yum install -y readline-devel libedit-devel \
 	&& yum install -y gcc automake autoconf libtool make \
 	&& yum install -y glibc-static libstdc++-static libevent-devel \
-	&& yum install -y iproute numactl mbedtls
+	&& yum install -y iproute numactl mbedtls gdb
 
 WORKDIR /opt/upu-5G
