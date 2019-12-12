@@ -1,4 +1,4 @@
-FROM nginx
+FROM centos
 RUN yum install -y pciutils \
 	&& yum install -y tcpdump \
 	&& yum install -y nginx \
